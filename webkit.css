@@ -1,0 +1,13 @@
+@-moz-document domain('webkitgtk.org') {
+	/* body, p, h1, html, header { */
+	body {
+		background-color: #252550 !important;
+		background-image: unset !important;
+	}
+	div {
+		background-color: #252550 !important;
+	}
+	#main_wrapper {
+		background-color: #252550 !important;
+	}
+}

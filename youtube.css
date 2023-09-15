@@ -1,0 +1,10 @@
+@-moz-document domain('youtube.com') {
+	body {
+		zoom: 180%;
+		/* scale: 200%; */
+	}
+
+	ytd-player {
+		zoom: 55%;
+	}
+}

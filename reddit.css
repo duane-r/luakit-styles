@@ -1,0 +1,54 @@
+@-moz-document domain('reddit.com') {
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+		line-height: unset !important;
+	}
+
+	body {
+		zoom: 220%;
+	}
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+
+	shreddit-comments-page-ad {
+		visibility: hidden;
+	}
+
+	pdp-right-rail {
+		visibility: hidden;
+	}
+
+	div.right-sidebar {
+		min-width: 1px;
+		visibility: hidden;
+	}
+
+	shreddit-experience-tree.theme-beta {
+		visibility: hidden;
+	}
+
+	/*#.block.xs\:px-0.px-md.xs\:pt-md.pdp {*/
+	.right-sidebar {
+		width: 0% !important;
+		visibility: hidden !important;
+	}
+}

@@ -1,0 +1,32 @@
+@-moz-document domain('rightstufanime.com') {
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+        background-image: unset !important;
+		line-height: unset !important;
+	}
+
+	body {
+		zoom: 170%;
+	}
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+}

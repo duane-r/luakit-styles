@@ -1,0 +1,85 @@
+@-moz-document domain('wikipedia.org') {
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+        background-image: unset !important;
+		line-height: unset !important;
+	}
+
+	body {
+		zoom: 220%;
+		/* scale: 200%; */
+	}
+
+	.mw-page-container-inner {
+		grid-template-columns: unset !important;
+	}
+
+	#mw-panel-toc {
+		zoom: 50% !important;
+		width: 150 !important;
+	}
+
+	.mw-content-container {
+		width: 600px !important;
+	}
+
+	#content {
+		/* width: 1000px !important; */
+	}
+
+	/****************************************/
+	/* This crap is all for youtube videos. */
+	/****************************************/
+
+	#movie_player {
+		zoom: 50% !important;
+	}
+
+	#movie_player > div.ytp-pause-overlay-container > div {
+		visibility: hidden !important;
+	}
+
+	body > div.ytp-popup.ytp-contextmenu {
+		zoom: 50%;
+	}
+
+	#movie_player > div,
+	#movie_player > * > div,
+	#movie_player > * > * > div,
+	#movie_player > * > * > * > div,
+	#movie_player > * > * > * > * > div,
+	#movie_player > * > * > * > * > * > div,
+	#movie_player > * > * > * > * > * > * > div {
+		background-color: unset !important;
+	}
+
+	/*
+	video {
+		background-color: unset !important;
+		tabindex: 1 !important;
+	}
+	*/
+
+	/****************************************/
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+}

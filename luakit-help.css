@@ -1,0 +1,49 @@
+@-moz-document regexp('^luakit:') {
+	* {
+		color: white !important;
+		background-color: #252550 !important;
+		word-wrap: break-word !important;
+	}
+
+	body {
+		zoom: 200% !important;
+	}
+
+	/*
+	table.input {
+		table-layout: fixed;
+		width: 100% !important;
+		word-wrap: break-word !important;
+	}
+	*/
+
+	#wrap, div.container,
+	#content {
+		max-width: 700px !important;
+		width: 700px !important;
+	}
+
+	.Pages, .Classes, .Modules {
+		display: block !important;
+	}
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+}

@@ -1,0 +1,37 @@
+@-moz-document domain('github.com') {
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+        background-image: unset !important;
+		/* zoom: 1.0; */
+	}
+
+	body {
+		zoom: 220%;
+		/* scale: 200%; */
+	}
+
+	anchored-position[popover]:not(.\:popover-open) {
+		display: none;
+	}
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+}

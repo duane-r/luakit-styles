@@ -1,0 +1,12 @@
+@-moz-document regexp('^view-source') {
+	/* body, p, h1, html, header { */
+	* {
+		color: white !important;
+		background-color: #252550 !important;
+		/* zoom: 1.0; */
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+}

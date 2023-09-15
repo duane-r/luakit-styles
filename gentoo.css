@@ -1,0 +1,46 @@
+@-moz-document domain('gentoo.org') {
+	* {
+		color: white !important;
+		background-color: #252550 !important;
+	}
+
+	body {
+		zoom: 250%;
+		max-width: 650px !important;
+		/* scale: 200%; */
+	}
+
+	div, table, tr, td, p {
+		max-width: 650px !important;
+		/* width: unset !important; */
+	}
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+
+	/*
+	.postbody {
+		font-size: 1.1rem !important;
+	} 
+	.topictitle {
+		font-size: 1.1rem !important;
+	}
+	*/
+}

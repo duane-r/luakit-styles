@@ -1,0 +1,82 @@
+@-moz-document domain('godotengine.org') {
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+        background-image: unset !important;
+		line-height: unset !important;
+	}
+
+	body {
+		zoom: 220%;
+	}
+
+	.rst-versions,
+	.wy-nav-side {
+		zoom: 50%;
+	}
+
+	.wy-nav-content-wrap {
+		margin-left: 150px !important;
+		width: 750px !important;
+	}
+
+	.feature-container-2x,
+	.feature-container-3x {
+		width: 750px !important;
+	}
+
+	/****************************************/
+	/* This crap is all for youtube videos. */
+	/****************************************/
+
+	#movie_player {
+		zoom: 50% !important;
+	}
+
+	#movie_player > div.ytp-pause-overlay-container > div {
+		visibility: hidden !important;
+	}
+
+	body > div.ytp-popup.ytp-contextmenu {
+		zoom: 50%;
+	}
+
+	#movie_player > div,
+	#movie_player > * > div,
+	#movie_player > * > * > div,
+	#movie_player > * > * > * > div,
+	#movie_player > * > * > * > * > div,
+	#movie_player > * > * > * > * > * > div,
+	#movie_player > * > * > * > * > * > * > div {
+		background-color: unset !important;
+	}
+
+	/*
+	video {
+		background-color: unset !important;
+		tabindex: 1 !important;
+	}
+	*/
+
+	/****************************************/
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+}

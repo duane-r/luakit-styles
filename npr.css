@@ -1,0 +1,40 @@
+@-moz-document domain('npr.org') {
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+		min-width: unset !important;
+	}
+
+	body {
+		zoom: 230%;
+		/* scale: 200%; */
+	}
+
+	#main-section {
+		width: 80% !important;
+	}
+
+	#main-sidebar {
+		visibility: hidden;
+	}
+
+	a {
+		color: aliceblue !important;
+	}
+
+	a:visited {
+		color: aliceblue !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+}

@@ -1,0 +1,93 @@
+@-moz-document domain('amazon.com') {
+	/*
+	.a-dropdown-item, .a-popover-inner, .a-list-link, .a-popover-start, .a-popover-wrapper, .a-popover {
+		background-color: unset !important;
+	}
+	*/
+
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+	}
+
+	/*
+	div {
+		background-color: unset !important;
+	}
+	*/
+
+	.a-section {
+		background-color: unset !important;
+	}
+
+	/* #cr_customers_image_gallery,
+	#crViewAllImagesLink,
+	#crReviewRow,
+	.cr-lightbox-image-viewer,
+	.cr-lightbox-main-image-container,
+	.cr-lightbox-main-image-container > img,
+	.a-modal-scroller.a-declarative,
+	.a-section.cr-lightbox-review-information,
+	.cr-lightbox-navigator-container,
+	.cr-lightbox-navigator-container__back, */
+
+	.a-modal-scroller {
+		zoom: 50% !important;
+	}
+
+	.cr-lightbox-main-image-container > img {
+		zoom: 200% !important;
+	}
+
+	.cr-lightbox-navigator-container__next {
+		background-color: unset !important;
+	}
+
+	.cr-video-desktop > * > * > * > * > div,
+	.cr-video-desktop > * > * > * > * > * > div
+	{
+		background-color: unset !important;
+	}
+
+	.a-native-dropdown {
+		color: black !important;
+		background-color: #252550 !important;
+		position: relative !important;
+		/* visibility: unset !important; */
+		/* height: 30px !important; */
+		z-index: 1 !important;
+		opacity: unset !important;
+	}
+
+	/*
+	.a-button-dropdown, .a-button-text {
+		background-color: #252550 !important;
+		-webkit-user-select: none;
+	}
+	*/
+
+	body {
+		zoom: 200% !important;
+	}
+
+	a {
+		/* background-color: unset !important; */
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+}

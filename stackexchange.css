@@ -1,0 +1,50 @@
+@-moz-document domain('stackexchange.com') {
+	* {
+		color: aliceblue !important;
+		background-color: #252550 !important;
+		/* zoom: 1.0; */
+	}
+
+	body {
+		zoom: 220%;
+		/* scale: 200%; */
+	}
+
+	a {
+		color: #99FFFF !important;
+	}
+
+	a:visited {
+		color: #FF99FF !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	::highlight() {
+		color: #ffa000;
+	}
+
+	::-webkit-selection {
+		background-color: #ff0000;
+	}
+
+	.ws4 {
+		visibility: hidden !important;
+		color: red !important;
+	}
+
+	.s-topbar {
+		visibility: hidden !important;
+	}
+
+	#sidebar {
+		width: 0px !important;
+		visibility: hidden !important;
+	}
+
+	#mainbar {
+		width: 100% !important;
+	}
+}

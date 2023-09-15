@@ -1,0 +1,16 @@
+@-moz-document domain('askubuntu.com') {
+	/* body, p, h1, html, header { */
+	body {
+		background-image: unset !important;
+	}
+	.ws4 {
+		visibility: hidden !important;
+		color: red !important;
+	}
+	div {
+		background-color: #252550 !important;
+	}
+	.d-flex {
+		background-color: #252550 !important;
+	}
+}

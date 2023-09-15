@@ -1,0 +1,143 @@
+/* @-moz-document domain('duane-desk.robertson.local') { */
+@-moz-document regexp('^https://duane-desk\.robertson\.local') {
+	body {
+		background-color: #252550 !important;
+		color aliceblue !important;
+		zoom: 230%;
+	}
+
+	.badge-active {
+		background-color: #6060f0 !important;
+	}
+
+	::selection {
+		background-color: #ffa000;
+	}
+
+	.navbar .nav .active > a, .navbar .nav .active > a:hover {
+		background: #404080 !important;
+	}
+
+	.navbar-inner {
+		background-color: #252550 !important;
+		background-image: unset !important;
+	}
+
+	/*
+	.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
+		background-color: #e6e6e6 !important;
+	}
+	*/
+
+	.btn {
+		background-image: unset !important;
+		color: aliceblue !important;
+		background-color: #303080 !important;
+		text-shadow: unset !important;
+	}
+
+	.btn-caption {
+		color: aliceblue !important;
+		background-color: unset !important;
+	}
+
+	[class^='icon-'] {
+		filter: invert(1) brightness(80%);
+		background-color: unset !important;
+	}
+
+	p {
+		color: aliceblue !important;
+	}
+
+	.config-header {
+		color: aliceblue;
+	}
+
+	.alert-info {
+		background-color: transparent !important;
+	}
+
+	h4 {
+		color: aliceblue !important;
+	}
+
+	.btn:hover {
+		background-color: unset !important;
+	}
+
+	.table-striped tbody tr:nth-child(2n+1) th {
+		background-color: #404040 !important;
+		color: aliceblue !important;
+	}
+
+	.table-striped tbody tr:nth-child(2n+1) td {
+		background-color: #404080 !important;
+		color: aliceblue !important;
+	}
+
+	.table thead th {
+		color: aliceblue !important;
+	}
+
+	.table tbody td {
+		color: aliceblue !important;
+	}
+
+	span {
+		color: aliceblue !important;
+	}
+
+	.modal {
+		background-color: #808080 !important;
+		/* top: 50% !important; */
+		zoom: 75% !important;
+	}
+
+	#LoginDialog {
+		top: unset !important;
+	}
+
+	#ConfirmDialog {
+		top: 35% !important;
+	}
+
+	tr.checked, tr.checked td, tr.checked:nth-child(odd) .progress {
+		background-color: revert !important;
+	}
+
+	.pagination a:hover, .pagination .active a {
+		color: aliceblue !important;
+		background-color: gray !important;
+	}
+
+	select {
+		background-color: gray !important;
+	}
+
+	table > thead > tr > th.table-selector {
+		background: unset !important;
+		text-shadow: unset !important;
+	}
+
+	#ConfigNav {
+		background-color: #909090 !important;
+	}
+
+	.help-block, .help-inline {
+		color: aliceblue !important;
+	}
+
+	label {
+		color: aliceblue !important;
+	}
+
+	.table tbody tr:hover td, .table tbody tr:hover th {
+		background-color: #808080 !important;
+	}
+
+	.table a {
+		color: aliceblue !important;
+	}
+
+}
